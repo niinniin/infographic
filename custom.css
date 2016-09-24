@@ -1,0 +1,35 @@
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.center {
+    display:table-cell;
+    vertical-align:middle;
+    float:none;
+}
+
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+
+.padd{
+    padding-top: 60px;
+}
+
+.paddbot{
+    padding-bottom: 60px;
+}
+

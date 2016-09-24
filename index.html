@@ -5,16 +5,15 @@
     <title>The Witcher</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-12" style="background-color: black">
-                <img src="Obrazki/the%20witcher%20logo.jpg" class="img-responsive center-block">
+                <img  src="Obrazki/the%20witcher%20logo.jpg" class="img-responsive center-block">
             </div>
         </div>
     </div>
@@ -22,14 +21,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" style="background-color: black">
-                <h1><p class="text-center" style="color: white">SALES</p></h1>
+                <h1><p class="text-center bytfarg" style="color: white">SALES</p></h1>
             </div>
         </div>
     </div>
 
     <div class="container" style="background-color: black">
         <div class="row">
-            <div class="col-md-3" style="background-color: black">
+            <div class="col-md-3 test" style="background-color: black">
                     <img src="Obrazki/coins-money-stack_318-50201.jpg" class="img-responsive">
             </div>
             <div class="col-md-8" style="background-color: black">
@@ -51,7 +50,7 @@
                 <div class="row">
                     <div class="col-md-7 text-left" style="background-color: black">
                         <h3>
-                            <p style="color: white;">
+                            <p class="bytfarg" style="color: white;">
                                 The development budget for the game was<br>
                                 306 milion polish zloty which is circa 79 milion dollars.
                             </p>
@@ -77,7 +76,7 @@
                 <div class="row">
                     <div class="col-md-7" style="background-color: black"><p></p></div>
                         <h3>
-                            <p style="color: white">
+                            <p class="bytfarg" style="color: white">
                                 1,500 people were involved<br>
                                 in the game's production globally<br>
                                 while a total of 240 developers worked<br>
@@ -90,7 +89,7 @@
 
 
             <div class="col-md-3" style="background-color: black;">
-                <img src="Obrazki/pie-chart-5.png" class="img-responsive center-block">
+                <img id="piechartchange" src="Obrazki/pie-chart-5.png" class="img-responsive center-block">
             </div>
         </div>
     </div>
@@ -120,7 +119,7 @@
                 <div class="row">
                     <div class="col-md-8" style="background-color: black">
                         <h3>
-                            <p style="color: white">
+                            <p class="bytfarg" style="color: white">
                                 The Witcher 3: Wild Hunt was developed<br>
                                 over the course of three and a half years.
                             </p>
@@ -133,165 +132,166 @@
 
     <div class="container" style="background-color: black">
         <div class="row row-eq-height">
-            <div class="col-md-11 text-right vertical-align" style="background-color: black;border: 1px solid white">
+            <div class="col-md-11 text-right vertical-align" style="background-color: black">
                 <h3>
-                    <p style="color: white" class="text-right">
+                    <p class="bytfarg" style="color: white" class="text-right">
                         Prior to release, over 1.5 million people pre-ordered the game<br>
                         but in March 2016, developer CD Projekt Red reported that the game<br>
                         has shipped nearly 10 million copies worldwide.
                     </p>
                 </h3>
             </div>
-            <div class="col-md-3" style="background-color: black;border: 1px solid white">
-                <img src="Obrazki/pie-chart-5.png" class="img-responsive center-block">
+            <div class="col-md-3" style="background-color: black">
+                <img id="piechartchange2" src="Obrazki/pie-chart-5.png" class="img-responsive center-block">
             </div>
         </div>
     </div>
 
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="background-color: white">
-                <h1><p class="text-center" style="color:black">AWARDS</p></h1>
+    <section id="awardshoover">
+        <div class="container padd">
+            <div class="row">
+                <div class="col-md-12" style="background-color: white">
+                    <h1><p class="text-center" style="color:black">AWARDS</p></h1>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h3><p>The Witcher 3<br>
-                    was 9th bestselling<br>
-                    game of 2015</p></h3>
-            </div>
-            <div class="col-md-4">
-                <img src="Obrazki/award.png" class="img-responsive">
-            </div>
-            <div class="col-md-4">
-                <h3><p>CD Project claims that<br>
-                    The Witcher 3 has accumulated<br>
-                    over 800 awards<br>
-                    since its release</p></h3>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="background-color: white">
-                <h2><p class="text-center" style="color:black">
-                    Received Golden Joystick award<br>
-                    for game of 2015 </p></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <h3><p class="showaward">The Witcher 3<br>
+                        was 9th bestselling<br>
+                        game of 2015</p></h3>
+                </div>
+                <div class="col-md-4">
+                    <img  src="Obrazki/award.png" class="img-responsive">
+                </div>
+                <div class="col-md-4 ">
+                    <h3><p class="showaward">CD Project claims that<br>
+                        The Witcher 3 has accumulated<br>
+                        over 800 awards<br>
+                        since its release</p></h3>
+                </div>
             </div>
         </div>
-    </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="background-color: white">
+                    <h2><p class="text-center showaward" style="color:black">
+                        Received Golden Joystick award<br>
+                        for game of 2015 </p></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="platforms">
+        <div class="container padd">
+            <div class="row">
+                <div class="col-md-12" style="background-color: black">
+                    <h1><p class="text-center" style="color:white">
+                        THE WITCHER 3 CAN BE PLAYED<br>
+                        ON 3 DIFFERENT<br>
+                        PLATFORMS</p></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row slidedown">
+                <div class="col-md-4 padd" style="background-color: black">
+                    <img src="Obrazki/pc.png" class="img-responsive">
+                </div>
+                <div class="col-md-4 padd" style="background-color: black">
+                    <img src="Obrazki/xbox.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-4 padd" style="background-color: black">
+                    <img src="Obrazki/ps4logo.jpg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row slidedown2">
+                <div class="col-md-12 padd" style="background-color: black">
+                    <h1><p class="text-center" style="color:white">
+                        SINGLEPLAYER</p></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row slidedown2">
+                <div class="col-md-12 padd" style="background-color: black">
+                    <img src="Obrazki/singleplayer.jpg" class="img-responsive center-block">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="container padd">
+            <div class="row">
+                <div class="col-md-12" style="background-color: white">
+                    <h1><p class="text-center" style="color:black">
+                        LANGUAGE<br>
+                    7 DUBBING VERSIONS AVAILABLE</p></h1>
+                </div>
+            </div>
+        </div>
+
+    <section id="languages">
+        <div class="container paddbot">
+            <div class="row">
+                <div class="col-md-6" style="background-color: white">
+                    <img src="Obrazki/english.jpeg" class="img-responsive pull-left english">
+                </div>
+                <div class="col-md-6" style="background-color: white">
+                    <img src="Obrazki/french.jpg" class="img-responsive pull-right french">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="background-color: white">
+                    <img src="Obrazki/german.jpg" class="img-responsive pull-left german">
+                </div>
+                <div class="col-md-4" style="background-color: white">
+                    <img src="Obrazki/language.png" class="img-responsive">
+                </div>
+                <div class="col-md-4" style="background-color: white">
+                    <img src="Obrazki/japanese.jpg" class="img-responsive pull-right japanese">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="background-color: white">
+                    <img src="Obrazki/poland.jpg" class="img-responsive pull-left poland">
+                </div>
+                <div class="col-md-6" style="background-color: white">
+                    <img src="Obrazki/russian.jpg" class="img-responsive pull-right russian">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="background-color: white">
+                    <img src="Obrazki/portugal.jpg" class="img-responsive center-block portugal">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
-    <div class="container">
+    <div class="container padd">
         <div class="row">
             <div class="col-md-12" style="background-color: black">
-                <h1><p class="text-center" style="color:white">
-                    THE WITCHER 3 CAN BE PLAYED<br>
-                    ON 3 DIFFERENT<br>
-                    PLATFORMS</p></h1>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4" style="background-color: black">
-                <img src="Obrazki/pc.png" class="img-responsive">
-            </div>
-            <div class="col-md-4" style="background-color: black">
-                <img src="Obrazki/xbox.jpg" class="img-responsive">
-            </div>
-            <div class="col-md-4" style="background-color: black">
-                <img src="Obrazki/ps4logo.jpg" class="img-responsive">
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="background-color: black">
-                <h1><p class="text-center" style="color:white">
-                    SINGLEPLAYER</p></h1>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="background-color: black">
-                <img src="Obrazki/singleplayer.jpg" class="img-responsive center-block">
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="background-color: white">
-                <h1><p class="text-center" style="color:black">
-                    LANGUAGE<br>
-                7 DUBBING VERSIONS AVAILABLE</p></h1>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6" style="background-color: white">
-                <img src="Obrazki/english.jpeg" class="img-responsive pull-left">
-            </div>
-            <div class="col-md-6" style="background-color: white">
-                <img src="Obrazki/french.jpg" class="img-responsive pull-right">
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4" style="background-color: white">
-                <img src="Obrazki/german.jpg" class="img-responsive pull-left">
-            </div>
-            <div class="col-md-4" style="background-color: white">
-                <img src="Obrazki/language.png" class="img-responsive">
-            </div>
-            <div class="col-md-4" style="background-color: white">
-                <img src="Obrazki/japanese.jpg" class="img-responsive pull-right">
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6" style="background-color: white">
-                <img src="Obrazki/poland.jpg" class="img-responsive pull-left">
-            </div>
-            <div class="col-md-6" style="background-color: white">
-                <img src="Obrazki/russian.jpg" class="img-responsive pull-right">
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="background-color: white">
-                <img src="Obrazki/portugal.jpg" class="img-responsive center-block">
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="background-color: black">
-                <h1><p class="text-center" style="color:white">
+                <h1><p id="locationbig" class="text-center" style="color:white">
                     LOCATIONS</p></h1>
             </div>
         </div>
@@ -299,7 +299,7 @@
 
         <div class="row">
             <div class="col-md-12" style="background-color: black">
-                <img src="Obrazki/mapa%20polski.jpg" class="img-responsive center-block">
+                <img id="mapchange" src="Obrazki/mapa%20polski.jpg" class="img-responsive center-block">
             </div>
         </div>
 
@@ -313,6 +313,12 @@
             </div>
         </div>
     </div>
+
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="mystyle.js" charset="utf-8"></script>
+
 
 </body>
 </html>
